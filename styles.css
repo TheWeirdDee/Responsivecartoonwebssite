@@ -79,6 +79,11 @@ h1{
     font-weight: 500;
     border-radius: 30px;
     margin-bottom: 5px;
+    transition: all .8s ease-in-out;
 }
-
-
+.hero-text a:hover{
+    background: transparent;
+    border: 1px solid white;
+    transform: translateX(8px);
+}
+ 
