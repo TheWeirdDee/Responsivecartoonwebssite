@@ -4,17 +4,22 @@
     box-sizing: border-box;
     list-style-type: none;
     text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 body{
     background-color: rgb(1, 49, 1);
 }
-.logo{
+nav .logo{
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bolder;
     font-size: 20px;
     display: flex;
     flex-wrap: wrap;
+}
+.logo:hover{
+    color: rgb(57, 184, 57);
+    font-size: 2rem;
 }
 nav{
     display: flex;
@@ -23,11 +28,57 @@ nav{
 }
 ul{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     justify-content: flex-end;
     flex-wrap: wrap;
 }
 a, a:visited{
     color: white;
+    font-size: 20px;
+    font-weight: 600;
 }
+a:hover{
+    text-decoration: underline;
+    color: rgb(60, 190, 60);
+}
+ 
+.hero{
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    position: relative;
+    margin: 10% 3%;
+}
+
+section{
+    padding: 0 15%;
+}
+.hero-text{
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+}
+h1{
+    font-size: 2em;
+    font-family: 'permanent Marker', cursive;
+}
+.toon{
+    width: 400px;
+    height: auto;
+}
+.hero-text a{
+    display: inline-block;
+    background: #4d9559;
+    border: 1px solid transparent;
+    padding: 12px 30px;
+    line-height: 1.4;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 30px;
+    margin-bottom: 5px;
+}
+
 
